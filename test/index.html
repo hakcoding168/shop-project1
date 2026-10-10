@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="header-left">
+          <a href="#" class="brand-logo">
+            <i class="fa-solid fa-mug-saucer"></i>
+            Coffee Shop
+          </a>
+        </div>
+
+        <div class="header-center">
+          <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search For" />
+            <button type="button" class="search-btn" title="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <a href="#" class="action-btn">
+            <i class="fa-solid fa-heart"></i>
+            <span class="icon-bage">2</span>
+          </a>
+          <a href="#" class="action-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="icon-bage">2</span>
+          </a>
+          <a href="#" class="action-btn">
+            <i class="fa-solid fa-circle-user"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="category-navbar">
+      <ul class="cat-list">
+        <li class="cat-item">
+          <a href="#" class="cat-link active"><i class="fa-solid fa-border-all"></i> All</a>
+        </li>
+        <li class="cat-item">
+          <a href="#" class="cat-link hot-deal"><i class="fa-solid fa-fire"></i>Flash Sale</a>
+        </li>
+        <li class="cat-item">
+          <a href="#" class="cat-link"><i class="fa-solid fa-mug-saucer"></i>Coffee</a>
+        </li>
+        <li class="cat-item">
+          <a href="#" class="cat-link"><i class="fa-solid fa-mug-hot"></i>Tea</a>
+        </li>
+        <li class="cat-item">
+          <a href="#" class="cat-link"><i class="fa-solid fa-blender-phone"></i>Smoothie</a>
+        </li>
+        <li class="cat-item">
+          <a href="#" class="cat-link"><i class="fa-solid fa-apple-whole"></i>Juice</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="header-container">
+
+        <!-- HERO -->
+        <section class="hero-section">
+          <div class="hero-banner">
+            <div class="hero-tag"><i class="fa-solid fa-hands-praying"></i>​ សូមអនុមោទនាបុណ្យភ្ជុំបិណ្ឌ</div>
+
+            <!-- left content -->
+            <div class="hero-content">
+              <div class="hero-subtitle">
+                <i class="fa-solid fa-hands-praying"></i>ប្រូម៉ូសិនពិសេសបុណ្យភ្ជុំបិណ្ឌ
+              </div>
+              <div class="hero-title">បញ្ចុះតម្លៃពិសេស</div>
+              <div class="hero-desc">
+                រាល់ការកុម្ម៉ង់ភេសជ្ជៈ ចាប់ពីថ្ងៃនេះ ដល់ចុងបុណ្យភ្ជុំបិណ្ឌដោយប្រើកូដ
+                <strong>PCHUMBEN15</strong> ពេលបញ្ជាទិញ
+              </div>
+              <a href="#products" class="btn-hero">
+                <i class="fa-solid fa-cart-plus"></i>កុម្ម៉ង់ឥឡូវ
+              </a>
+            </div>
+
+            <!-- right content -->
+            <div class="hero-image-warp">
+              <img
+                src="https://tse4.mm.bing.net/th/id/OIP.O1sGmsHIIk8a2kFb-JeKtAHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Coffee"
+                class="hero-img"
+              />
+              <div class="floating-pill">
+                <i class="fa-solid fa-star"></i>ម៉ឺនុយពិសេសប្រចាំហាង
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section class="feature-section">
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-mug-hot"></i></div>
+              <h3 class="feature-title">កាហ្វេឆ្ងាញ់</h3>
+              <p class="feature-desc">ប្រើគ្រាប់កាហ្វេគុណភាពខ្ពស់</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+              <h3 class="feature-title">ដឹកជញ្ជូនលឿន</h3>
+              <p class="feature-desc">ទទួលបានក្នុងរយៈពេល 20-30 នាទី ក្នុងទីក្រុង</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-credit-card"></i></div>
+              <h3 class="feature-title">ទូទាត់មានសុវត្ថិភាព</h3>
+              <p class="feature-desc">គាំទ្រ ABA, Bakong, Visa</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fa-solid fa-tty"></i></div>
+              <h3 class="feature-title">បម្រើអតិថិជន ២៤/៧</h3>
+              <p class="feature-desc">កុម្ម៉ង់រហ័សទាន់ចិត្ត</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section id="products">
+          <div class="section-header">
+            <h2 class="sec-title">
+              <i class="fa-solid fa-fire"></i>ភេសជ្ជៈពេញនិយម &amp; បញ្ចុះតម្លៃ
+            </h2>
+          </div>
+          <div class="see-all-warp">
+            <a href="#" class="see-all-link">
+              មើលទាំងអស់ <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+
+          <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+              <div class="product-img-box">
+                <span class="badge-discount">-25%</span>
+                <button type="button" class="btn-card-wishlist" title="ចូលចិត្ត">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+                <img
+                  src="https://tse4.mm.bing.net/th/id/OIP.O1sGmsHIIk8a2kFb-JeKtAHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                  alt="Iced latte"
+                  class="product-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <p class="product-category">Iced Latte</p>
+                <h3 class="product-title">កាហ្វេអេស្ព្រេសូ ជាមួយទឹកដោះគោត្រជាក់ និងទឹកកក</h3>
+                <div class="product-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <span class="rating-count">(4.8)</span>
+                </div>
+                <div class="price-box">
+                  <span class="current-price">$3.00</span>
+                  <span class="old-price">$4.00</span>
+                </div>
+                <button type="button" class="btn-add-cart">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  បញ្ចូលក្នុងកន្ត្រក់
+                </button>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+              <div class="product-img-box">
+                <span class="badge-discount">-50%</span>
+                <button type="button" class="btn-card-wishlist" title="ចូលចិត្ត">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+                <img
+                  src="https://tse3.mm.bing.net/th/id/OIP.oJMvO5GGylMjb6xbKilavQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                  alt="Green tea"
+                  class="product-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <p class="product-category">Green Tea</p>
+                <h3 class="product-title">តែបៃតង ជាមួយទឹកដោះគោត្រជាក់ និងទឹកកក</h3>
+                <div class="product-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span class="rating-count">(4.0)</span>
+                </div>
+                <div class="price-box">
+                  <span class="current-price">$1.00</span>
+                  <span class="old-price">$2.00</span>
+                </div>
+                <button type="button" class="btn-add-cart">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  បញ្ចូលក្នុងកន្ត្រក់
+                </button>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+              <div class="product-img-box">
+                <span class="badge-discount">-17%</span>
+                <button type="button" class="btn-card-wishlist" title="ចូលចិត្ត">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+                <img
+                  src="https://tse4.mm.bing.net/th/id/OIP.vO7JrDqYDbdc-NK4gW5EvQHaJl?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                  alt="Strawberry Smoothie"
+                  class="product-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <p class="product-category">Strawberry Smoothie</p>
+                <h3 class="product-title">Strawberry ជាមួយទឹកដោះគោត្រជាក់ និងទឹកកក</h3>
+                <div class="product-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span class="rating-count">(3.8)</span>
+                </div>
+                <div class="price-box">
+                  <span class="current-price">$4.99</span>
+                  <span class="old-price">$5.99</span>
+                </div>
+                <button type="button" class="btn-add-cart">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  បញ្ចូលក្នុងកន្ត្រក់
+                </button>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+              <div class="product-img-box">
+                <span class="badge-discount">-40%</span>
+                <button type="button" class="btn-card-wishlist" title="ចូលចិត្ត">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+                <img
+                  src="https://tse1.mm.bing.net/th/id/OIP.V5ChpolEEU_vJO1QWlJGowHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                  alt="Milk tea"
+                  class="product-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <p class="product-category">Milk Tea</p>
+                <h3 class="product-title">តែខ្មៅ ជាមួយទឹកដោះគោត្រជាក់ និងទឹកកក</h3>
+                <div class="product-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span class="rating-count">(2.5)</span>
+                </div>
+                <div class="price-box">
+                  <span class="current-price">$1.50</span>
+                  <span class="old-price">$2.50</span>
+                </div>
+                <button type="button" class="btn-add-cart">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  បញ្ចូលក្នុងកន្ត្រក់
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="header-container footer-grid">
+        <div class="footer-col">
+          <a href="#" class="brand-logo">
+            <i class="fa-solid fa-mug-saucer"></i> Coffee Shop
+          </a>
+          <p>កាហ្វេឆ្ងាញ់ ដឹកជញ្ជូនលឿន ក្នុងទីក្រុងភ្នំពេញ</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>ម៉ឺនុយ</h4>
+          <ul>
+            <li><a href="#">កាហ្វេ</a></li>
+            <li><a href="#">តែ</a></li>
+            <li><a href="#">ស្មូធី</a></li>
+            <li><a href="#">ទឹកផ្លែឈើ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>ទំនាក់ទំនង</h4>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> 012 345 678</li>
+            <li><i class="fa-solid fa-location-dot"></i> ភ្នំពេញ, កម្ពុជា</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>តាមដានយើង</h4>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Coffee Shop. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+      </div>
+    </footer>
+    <a href="#" class="floating-cart-btn" title="កន្ត្រកទំនិញ">
+    <span class="cart-float-badge">3</span>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </a>
+  <a href="https://t.me/" target="_blank" class="floating-support-btn">
+    <span class="status-dot"></span>
+    <i class="fa-brands fa-telegram"></i> ជំនួយការតេឡេក្រាម
+  </a>
+  </body>
+</html>
